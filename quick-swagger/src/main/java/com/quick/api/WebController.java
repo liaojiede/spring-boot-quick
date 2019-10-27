@@ -34,6 +34,7 @@ public class WebController {
 		resp.setMessage(ResultStatus.SUCCESS.getErrorMsg());
 		resp.setCode(ResultStatus.SUCCESS.getErrorCode());
 		resp.setData(address);
+		resp.setCode(600);
 		return resp;
 	}
 
